@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Radamanth 
-  description: Ansible lover
+  description: Install mysql on an ubuntu trusty server, set the default mysql root password.
   company: www.neovia.fr
   license: GPLv2
   min_ansible_version: 1.4
