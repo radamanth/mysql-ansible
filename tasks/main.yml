@@ -16,8 +16,9 @@
 
 # MYSQL
 - name: Start the MySQL service
-  service: name=mysql state=started
+  service: name=mysql state=restarted
 
+# - debug: var=mysql_root_passwd
 
 # 'localhost' needs to be the last item for idempotency, see
 # http://ansible.cc/docs/modules.html#mysql-user
